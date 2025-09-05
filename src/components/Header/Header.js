@@ -9,18 +9,19 @@ import { faUser } from "@fortawesome/free-solid-svg-icons";
 export default function Header() {
   return (
     <header className={styles.header}>
-      <div>
+      <div className={styles.logo}>
         <p>MymovieApp</p>
       </div>
-      <div>
+      <div className={styles.navigation}>
         <nav>
           <ul>
-            <li>séries</li>
-            <li>films</li>
+            <li>SÉRIES</li>
+            <li>FILMS</li>
           </ul>
         </nav>
       </div>
       <input type="text" placeholder="rechercher un titre..."/>
+      
       <div>
         <FontAwesomeIcon icon={faUser}/>
       </div>

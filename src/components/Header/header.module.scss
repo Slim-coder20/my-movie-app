@@ -2,8 +2,48 @@
 
 .header {
   font-family: var(--font-roboto);
+  display: flex;
+  justify-content: space-between;
+  background-color: $primaryColor;
+  color: $whiteColor;
+  padding: 0 10px;
+  
+  .navigation {
+    display: flex;
+    justify-content: flex-end;
+    flex: 0.5;
+    gap: 20px;
+
+    nav {
+      ul  {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        margin-right: 20px;
+        
+      }
+    }
+  
+  }
+    input {
+      min-width: 300px;
+      margin: 10px 0;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      outline: none;
+
+    }
+    div {
+      display: flex;
+      align-items: center;
+    }
  
 }
+
+
+
+
 
 .main {
   font-family: var(--font-montserrat);
