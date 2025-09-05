@@ -7,6 +7,13 @@
   background-color: $primaryColor;
   color: $whiteColor;
   padding: 0 10px;
+
+  .logo{
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    font-size: 20px;
+    
+  }
   
   .navigation {
     display: flex;
