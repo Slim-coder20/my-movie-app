@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: $whiteColor;
+}
+
 .error {
   width: 100%;
   min-height: 90vh;
