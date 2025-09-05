@@ -1,5 +1,5 @@
 @import "variables";
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,6 +8,13 @@
 a {
   text-decoration: none;
   color: $whiteColor;
+}
+
+h2 {
+  color: $secondaryColor;
+  font-weight: bold;
+  font-size: 26px;
+  margin-top: 40px;
 }
 
 .error {
@@ -20,15 +27,13 @@ a {
   color: $secondaryColor;
   font-family: var(--font-montserrat);
 
-  h1{
+  h1 {
     margin: 0;
     font-size: 100px;
     font-weight: 700;
-
   }
 
-  p{
+  p {
     font-size: 16px;
   }
-
 }
